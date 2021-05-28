@@ -58,7 +58,9 @@ const AdicionarRestauranteTela = (props) => {
       cidade: cidade,
       fotoURL: downloadURL,
       preco: preco,
-      categoria: categoria
+      categoria: categoria,
+      avaliacaoMedia: 0,
+      qtdeAvaliacoes: 0
     })
   }
 
